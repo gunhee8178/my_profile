@@ -1,0 +1,53 @@
+.border-start{
+    padding-left: 5px;
+}
+
+.red, ul .red {
+  color: red;
+  font-family: Courier;
+  font-weight: bold;
+}
+
+#wrapper {
+  width: 800px;
+  background: #EFFBF2;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#personalInfo{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+    margin-bottom: 20px;
+}
+
+body {
+  font-family: "Arial";
+}
+
+#wrapper h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#wrapper h3{
+    margin-top: 10px;
+}
+
+#wrapper a{
+  text-decoration: none;
+}
+
+h1 a:visited{
+    color: white;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+th, td {
+  padding: 5px;
+}
